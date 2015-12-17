@@ -66,12 +66,6 @@ plot(Date[1:60], alpha[1:60],
      ylab                                     = c("Alpha"), 
      xlab                                     = c("Date"), 
      main                                     = "Bitcoin Powerlaw Estimation (Right Tail)")
-
-
-
-
-
-
 )
 
 
