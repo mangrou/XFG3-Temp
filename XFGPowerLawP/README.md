@@ -24,6 +24,9 @@ Datafile : Datafile: i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv; Aj.csv, j=2, 3
 Example : time series plots of parameter goodness of fit for wealth 
  distribution of Bitcoin.>
 ```
+![Picture1](PowerLawP1.PNG)
+![Picture2](PowerLawP2.PNG)
+![Picture3](PowerLawP3.PNG)
 
 
 ```R
