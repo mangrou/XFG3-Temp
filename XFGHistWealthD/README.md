@@ -33,8 +33,7 @@ Example : wealth distribution for Bitcoin and wealth distribution for Auroracoin
 libraries               = c("lubridate", "poweRlaw","igraph","tables","texreg")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 # Draw Figure 2
-#setwd("~/Desktop/Data/Table 1")
-setwd("C:/Users/liguo.2014/Desktop/1217")
+setwd("~/Desktop/Data")
 Data.PL                 = read.csv(paste(64, ".csv", sep = ""), header = T)[, 1]
 m                       = hist(Data.PL, 
                                breaks = c(0, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 
