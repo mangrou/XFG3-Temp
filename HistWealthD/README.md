@@ -25,7 +25,9 @@ Example : wealth distribution for Bitcoin and wealth distribution for Auroracoin
 ```
 
 
-![Picture1](HistWealthD1.png)
+[Picture1](HistWealthD1.png)
+[Picture2](HistWealthD2.png)
+[Picture3](HistWealthD3.png)
 
 ```R
 <# please download the following package
