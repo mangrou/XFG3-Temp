@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet:  XFGPowerLawEst2
+Name of QuantLet:  XFGPowerLawEst2
 
 Published in:      Applied Quantitative Finance
 
@@ -25,12 +25,12 @@ Input:
 
 Output:  
 
-Example:  >
+Example:  
 ```
 
 
 ```R
-<# please download the following package
+# please download the following package
 libraries = c("lubridate", "poweRlaw","igraph","tables","texreg")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
@@ -62,5 +62,5 @@ for (i in 1:length(Xmin.2)) {
 
 
 
->
+
 ```

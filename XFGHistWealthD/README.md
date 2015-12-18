@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet:  XFGHistWealthD
+Name of QuantLet:  XFGHistWealthD
 
 Published in:      Applied Quantitative Finance
 
@@ -24,7 +24,7 @@ Input:
 
 Output:  
 
-Example:           wealth distribution for Bitcoin and wealth distribution for Auroracoin.>
+Example:           wealth distribution for Bitcoin and wealth distribution for Auroracoin.
 ```
 
 
@@ -33,7 +33,7 @@ Example:           wealth distribution for Bitcoin and wealth distribution for A
 ![Picture1](XFGHistWealthD3.PNG)
 
 ```R
-<# please download the following package
+# please download the following package
 libraries               = c("lubridate", "poweRlaw","igraph","tables","texreg")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 # Draw Figure 2
@@ -107,5 +107,4 @@ mtext(side              = 3,
 
 
 
->
 ```

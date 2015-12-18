@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet:  XFGPowerLawP
+Name of QuantLet:  XFGPowerLawP
 
 Published in:      Applied Quantitative Finance
 
@@ -26,15 +26,16 @@ Input:
 Output:  
 
 Example:           time series plots of parameter goodness of fit for wealth 
- distribution of Bitcoin.>
+ distribution of Bitcoin.
 ```
+
 ![Picture1](XFGPowerLawP1.PNG)
 ![Picture2](XFGPowerLawP2.PNG)
 ![Picture3](XFGPowerLawP3.PNG)
 
 
 ```R
-<
+
 setwd("~/Desktop/Data")
 source("XFGPowerLawEst1.R")
 # sample period
@@ -75,6 +76,4 @@ plot(Date[1:60], P,
      main                                     = "Goodness of Fit of Bitcoin (Right Tail)")
 
 
-
->
 ```

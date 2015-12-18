@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet:  XFGTabletoLatex
+Name of QuantLet:  XFGTabletoLatex
 
 Published in:      Applied Quantitative Finance
 
@@ -25,12 +25,12 @@ Input:
 
 Output:  
 
-Example:  >
+Example:  
 ```
 
 
 ```R
-<source(XFGPowerLawEst1)
+source(XFGPowerLawEst1)
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
@@ -537,5 +537,5 @@ texreg(list(Days.destroyed.P.value.fit,
 
 
 
->
+
 ```
