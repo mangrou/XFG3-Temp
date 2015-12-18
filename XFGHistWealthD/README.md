@@ -1,8 +1,39 @@
-# please download the following package
+[<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/banner.png" alt="Visit QuantNet">](http://quantlet.de/index.php?p=info)
+
+## [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **XFGHistWealthD** [<img src="https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/d3/ia)
+
+
+```yaml
+<Name of QuantLet : HistWealthD
+
+Published in : Applied Quantitative Finance
+
+Description : 'Generates 3 histgrams of wealth distribution for Bitcion and Auroracoin.'
+
+Keywords : 'power law, bitcoin, crypto, currency, index, wealth distribution'
+
+See also : 
+
+Author : Guo Li
+
+Submitted :
+
+Datafile : i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv; Aj.csv, j=2, 3, ..., 10 Auroracoin.csv
+
+Example : wealth distribution for Bitcoin and wealth distribution for Auroracoin.>
+```
+
+
+![Picture1](HistWealthD1.PNG)
+![Picture1](HistWealthD2.PNG)
+![Picture1](HistWealthD3.PNG)
+
+```R
+<# please download the following package
 libraries               = c("lubridate", "poweRlaw","igraph","tables","texreg")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 # Draw Figure 2
-#setwd("~/Desktop/Data/Table 1")
+setwd("~/Desktop/Data")
 Data.PL                 = read.csv(paste(64, ".csv", sep = ""), header = T)[, 1]
 m                       = hist(Data.PL, 
                                breaks = c(0, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 
@@ -26,8 +57,6 @@ mtext(side              = 3,
 
 
 # Draw Figure 3
-#setwd("~/Desktop/Data/Table 2")
-setwd("C:/Users/liguo.2014/Dropbox/Data/Table 2")
 Auroracoin.PL           = read.csv(paste("A10.csv", sep = ""), header = T)[, 1]
 m                       = hist(Auroracoin.PL, 
                                breaks       = c(0, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 
@@ -74,3 +103,5 @@ mtext(side              = 3,
 
 
 
+>
+```

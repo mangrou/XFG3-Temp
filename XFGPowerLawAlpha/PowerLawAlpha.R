@@ -1,4 +1,5 @@
-setwd("~/Desktop/Data/Table 1")
+#setwd("~/Desktop/Data/Table 1")
+setwd("C:/Users/liguo.2014/Desktop/1217")
 source("PowerLawEst1.R")
 # sample period
 startDate                                  = ymd(20081231)
@@ -12,8 +13,6 @@ plot(Date[2:60], alpha[2:60],
      main                                     = "Bitcoin Powerlaw Estimation (whole sample)")
 
 
-#setwd("~/Desktop/Data/Table 2")
-setwd("C:/Users/liguo.2014/Dropbox/Data/Table 2")
 source("PowerLawEst2.R")
 # sample period
 startDate                                  = ymd(20140228)
@@ -26,9 +25,6 @@ plot(Date, alpha.2,
      xlab                                     = c("Date"), 
      main                                     = "Aurora Powerlaw Estimation (Right Tail)")
 
-
-setwd("C:/Users/liguo.2014/Dropbox/Data/Table 1")
-#setwd("~/Desktop/Data/Table 1")
 source("PowerLawEst3.R")
 # sample period
 startDate                                  = ymd(20081231)
