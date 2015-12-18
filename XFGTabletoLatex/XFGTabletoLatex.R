@@ -1,4 +1,4 @@
-source(PowerLawEst1)
+source(XFGPowerLawEst1)
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
@@ -107,7 +107,7 @@ texreg(list(Days.destroyed.alpha.fit,
                                                        No.Transaction.alpha.table$coef[, 4], 
                                                        Ratio.alpha.table$coef[, 4]))
 
-source(PowerLawEst2)
+source(XFGPowerLawEst2)
 # sample period
 startDate                                  = ymd(20140228)
 Date                                       = startDate %m+% months(c(1:(length(alpha.2))))
@@ -173,7 +173,7 @@ texreg(list(days.destroyed.alpha.fita,
                                                        No.of.Transactions.alpha.tablea$coef[, 4], 
                                                        Transaction.fees.alpha.tablea$coef[, 4]))
 
-source(PowerLawEst3)
+source(XFGPowerLawEst3)
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))

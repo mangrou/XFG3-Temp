@@ -1,5 +1,4 @@
-#setwd("~/Desktop/Data/Table 1")
-setwd("C:/Users/liguo.2014/Desktop/1217")
+setwd("~/Desktop/Data")
 source("PowerLawEst1.R")
 # sample period
 startDate                                  = ymd(20081231)

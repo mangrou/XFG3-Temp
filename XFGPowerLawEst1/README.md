@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet : PowerLawEst1
+<Name of QuantLet : XFGPowerLawEst1
 
 Published in : Applied Quantitative Finance
 

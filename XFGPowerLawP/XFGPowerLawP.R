@@ -1,6 +1,5 @@
-#setwd("~/Desktop/Data/Table 1")
-setwd("C:/Users/liguo.2014/Desktop/1217")
-source("PowerLawEst1.R")
+setwd("~/Desktop/Data")
+source("XFGPowerLawEst1.R")
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
@@ -14,7 +13,7 @@ plot(Date[1:length(Date)], P,
 
 
 #Goodness of Fit of right tail wealth distribution of Auroracoin
-source("PowerLawEst2.R")
+source("XFGPowerLawEst2.R")
 # sample period
 startDate                                  = ymd(20140228)
 Date                                       = startDate %m+% months(c(1:(length(alpha.2))))
@@ -27,7 +26,7 @@ plot(Date[1:length(Date)], P.2,
 
 
 #Goodness of Fit of right tail wealth distribution of Bitcoin
-source("PowerLawEst3.R")
+source("XFGPowerLawEst3.R")
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
