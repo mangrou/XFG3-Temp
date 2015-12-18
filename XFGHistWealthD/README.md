@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet : HistWealthD
+<Name of QuantLet : XFGHistWealthD
 
 Published in : Applied Quantitative Finance
 
@@ -24,9 +24,9 @@ Example : wealth distribution for Bitcoin and wealth distribution for Auroracoin
 ```
 
 
-![Picture1](HistWealthD1.PNG)
-![Picture1](HistWealthD2.PNG)
-![Picture1](HistWealthD3.PNG)
+![Picture1](XFGHistWealthD1.PNG)
+![Picture1](XFGHistWealthD2.PNG)
+![Picture1](XFGHistWealthD3.PNG)
 
 ```R
 <# please download the following package

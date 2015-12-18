@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet : PowerLawEst2
+<Name of QuantLet : XFGPowerLawEst2
 
 Published in : Applied Quantitative Finance
 
@@ -32,7 +32,7 @@ lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 
 # Part 2: for figure 3,6,8 $ Table 2
 
-#setwd("~/Desktop/Data/Table 2")
+setwd("~/Desktop/Data")
 # pre-allocating for caculation of Power Law parameters
 alpha.2           = rep(NA, 9)
 Xmin.2            = rep(NA, 9)

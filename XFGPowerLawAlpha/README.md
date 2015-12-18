@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet : PowerLawAlpha
+<Name of QuantLet : XFGPowerLawAlpha
 
 Published in : Applied Quantitative Finance
 
@@ -24,13 +24,13 @@ Example : >
 ```
 
 
-![Picture1](PowerLawAlpha1.PNG)
-![Picture1](PowerLawAlpha2.PNG)
-![Picture1](PowerLawAlpha3.PNG)
+![Picture1](XFGPowerLawAlpha1.PNG)
+![Picture1](XFGPowerLawAlpha2.PNG)
+![Picture1](XFGPowerLawAlpha3.PNG)
 
 ```R
 <setwd("~/Desktop/Data")
-source("PowerLawEst1.R")
+source("XFGPowerLawEst1.R")
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))

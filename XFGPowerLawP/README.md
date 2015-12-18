@@ -4,7 +4,7 @@
 
 
 ```yaml
-<Name of QuantLet : PowerLawP
+<Name of QuantLet : XFGPowerLawP
 
 Published in : Applied Quantitative Finance
 
@@ -24,15 +24,15 @@ Datafile : Datafile: i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv; Aj.csv, j=2, 3
 Example : time series plots of parameter goodness of fit for wealth 
  distribution of Bitcoin.>
 ```
-![Picture1](PowerLawP1.PNG)
-![Picture2](PowerLawP2.PNG)
-![Picture3](PowerLawP3.PNG)
+![Picture1](XFGPowerLawP1.PNG)
+![Picture2](XFGPowerLawP2.PNG)
+![Picture3](XFGPowerLawP3.PNG)
 
 
 ```R
 <
-setwd("~/Desktop")
-source("PowerLawEst1.R")
+setwd("~/Desktop/Data")
+source("XFGPowerLawEst1.R")
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
@@ -46,7 +46,7 @@ plot(Date[1:length(Date)], P,
 
 
 #Goodness of Fit of right tail wealth distribution of Auroracoin
-source("PowerLawEst2.R")
+source("XFGPowerLawEst2.R")
 # sample period
 startDate                                  = ymd(20140228)
 Date                                       = startDate %m+% months(c(1:(length(alpha.2))))
@@ -59,7 +59,7 @@ plot(Date[1:length(Date)], P.2,
 
 
 #Goodness of Fit of right tail wealth distribution of Bitcoin
-source("PowerLawEst3.R")
+source("XFGPowerLawEst3.R")
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
