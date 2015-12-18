@@ -4,33 +4,38 @@
 
 
 ```yaml
-<Name of QuantLet : XFGPowerLawP
+Name of QuantLet:  XFGPowerLawP
 
-Published in : Applied Quantitative Finance
+Published in:      Applied Quantitative Finance
 
-Description : 'Plots the time series of the goodness of fit of Power Law model 
-for both Bitcoin and Auroracoin.'
+Description:       Plots the time series of the goodness of fit of Power Law model 
+for both Bitcoin and Auroracoin.
 
-Keywords : 'power law, bitcoin, crypto, currency, index, wealth distribution'
+Keywords:          power law, bitcoin, crypto, currency, index, wealth distribution
 
-See also : 
+See also:          XFGHistWealthD XFGPowerLawAlpha XFGPowerLawEst1 XFGPowerLawEst2 XFGPowerLawEst3 XFGTabletoLatex
 
-Author : Guo Li
+Author:            Guo Li
 
-Submitted :
+Submitted:         Fri, December 18 2015 by Guo Li
 
-Datafile : Datafile: i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv; Aj.csv, j=2, 3, ..., 10
+Datafile:          i.csv, i = 1, 2, ..., 60, Bitcoin_Data1.csv, Aj.csv, j=2, 3, ..., 10
 
-Example : time series plots of parameter goodness of fit for wealth 
- distribution of Bitcoin.>
+Input:  
+
+Output:  
+
+Example:           time series plots of parameter goodness of fit for wealth 
+ distribution of Bitcoin.
 ```
+
 ![Picture1](XFGPowerLawP1.PNG)
 ![Picture2](XFGPowerLawP2.PNG)
 ![Picture3](XFGPowerLawP3.PNG)
 
 
 ```R
-<
+
 setwd("~/Desktop/Data")
 source("XFGPowerLawEst1.R")
 # sample period
@@ -71,6 +76,4 @@ plot(Date[1:60], P,
      main                                     = "Goodness of Fit of Bitcoin (Right Tail)")
 
 
-
->
 ```

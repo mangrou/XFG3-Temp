@@ -4,29 +4,33 @@
 
 
 ```yaml
-<Name of QuantLet : XFGTabletoLatex
+Name of QuantLet:  XFGTabletoLatex
 
-Published in : Applied Quantitative Finance
+Published in:      Applied Quantitative Finance
 
-Description : 'Generates the Latex code for tables of regression results in 'Risk 
-Analysis of Cryptos as Alternative Asset Class'.'
+Description:       Generates the Latex code for tables of regression results in 'Risk 
+Analysis of Cryptos as Alternative Asset Class'.
 
-Keywords : 'power law, bitcoin, crypto, currency, index, wealth distribution'
+Keywords:          power law, bitcoin, crypto, currency, index, wealth distribution
 
-See also : 
+See also:          XFGHistWealthD XFGPowerLawAlpha XFGPowerLawEst1 XFGPowerLawEst2 XFGPowerLawEst3 XFGPowerLawP
 
-Author : Guo Li
+Author:            Guo Li
 
-Submitted :
+Submitted:         Fri, December 18 2015 by Guo Li
 
-Datafile : i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv; Aj.csv, j=2, 3, ..., 10 Auroracoin.csv
+Datafile:          i.csv, i = 1, 2, ..., 60, Bitcoin_Data1.csv, Aj.csv, j=2, 3, ..., 10 Auroracoin.csv
 
-Example : >
+Input:  
+
+Output:  
+
+Example:  
 ```
 
 
 ```R
-<source(XFGPowerLawEst1)
+source(XFGPowerLawEst1)
 # sample period
 startDate                                  = ymd(20081231)
 Date                                       = startDate %m+% months(c(1:(length(alpha))))
@@ -533,5 +537,5 @@ texreg(list(Days.destroyed.P.value.fit,
 
 
 
->
+
 ```

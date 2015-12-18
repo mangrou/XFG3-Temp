@@ -4,23 +4,27 @@
 
 
 ```yaml
-<Name of QuantLet : XFGHistWealthD
+Name of QuantLet:  XFGHistWealthD
 
-Published in : Applied Quantitative Finance
+Published in:      Applied Quantitative Finance
 
-Description : 'Generates 3 histgrams of wealth distribution for Bitcion and Auroracoin.'
+Description:       Generates 3 histgrams of wealth distribution for Bitcion and Auroracoin.
 
-Keywords : 'power law, bitcoin, crypto, currency, index, wealth distribution'
+Keywords:          power law, bitcoin, crypto, currency, index, wealth distribution
 
-See also : 
+See also:          XFGPowerLawAlpha XFGPowerLawEst1 XFGPowerLawEst2 XFGPowerLawEst3 XFGPowerLawP XFGTabletoLatex
 
-Author : Guo Li
+Author:            Guo Li
 
-Submitted :
+Submitted:         Fri, December 18 2015 by Guo Li
 
-Datafile : i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv; Aj.csv, j=2, 3, ..., 10 Auroracoin.csv
+Datafile:          i.csv, i = 1, 2, ..., 60, Bitcoin_Data1.csv, Aj.csv, j=2, 3, ..., 10, Auroracoin.csv
 
-Example : wealth distribution for Bitcoin and wealth distribution for Auroracoin.>
+Input:  
+
+Output:  
+
+Example:           wealth distribution for Bitcoin and wealth distribution for Auroracoin.
 ```
 
 
@@ -29,7 +33,7 @@ Example : wealth distribution for Bitcoin and wealth distribution for Auroracoin
 ![Picture1](XFGHistWealthD3.PNG)
 
 ```R
-<# please download the following package
+# please download the following package
 libraries               = c("lubridate", "poweRlaw","igraph","tables","texreg")
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
 # Draw Figure 2
@@ -103,5 +107,4 @@ mtext(side              = 3,
 
 
 
->
 ```
