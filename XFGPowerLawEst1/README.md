@@ -4,24 +4,28 @@
 
 
 ```yaml
-<Name of QuantLet : XFGPowerLawEst1
+<NName of QuantLet:  XFGPowerLawEst1
 
-Published in : Applied Quantitative Finance
+Published in:      Applied Quantitative Finance
 
-Description : 'Estimates the Power Law parameter Alpha as well as the goodness 
-of fit of wealth distribution of Bitcoin with Xmin = 1 by default.'
+Description:       Estimates the Power Law parameter Alpha as well as the goodness 
+of fit of wealth distribution of Bitcoin with Xmin = 1 by default.
 
-Keywords : 'power law, bitcoin, crypto, currency, index'
+Keywords:          power law, bitcoin, crypto, currency, index
 
-See also : 
+See also:          XFGHistWealthD XFGPowerLawAlpha XFGPowerLawEst2 XFGPowerLawEst3 XFGPowerLawP XFGTabletoLatex
 
-Author : Guo Li
+Author:            Guo Li
 
-Submitted :
+Submitted:         Fri, December 18 2015 by Guo Li
 
-Datafile : i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv
+Datafile:          i.csv, i = 1, 2, ..., 60, Bitcoin_Data1.csv
 
-Example : >
+Input:  
+
+Output:  
+
+Example:  >
 ```
 
 

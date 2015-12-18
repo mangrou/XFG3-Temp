@@ -4,24 +4,28 @@
 
 
 ```yaml
-<Name of QuantLet : XFGPowerLawEst3
+<Name of QuantLet:  XFGPowerLawEst3
 
-Published in : Applied Quantitative Finance
+Published in:      Applied Quantitative Finance
 
-Description : 'Estimates the Power Law parameter Alpha as well as the goodness
-of fit of right tail of wealth distribution of Bitcoin.'
+Description:       Estimates the Power Law parameter Alpha as well as the goodness
+of fit of right tail of wealth distribution of Bitcoin.
 
-Keywords : 'power law, bitcoin, crypto, currency, index, wealth distribution'
+Keywords:          power law, bitcoin, crypto, currency, index, wealth distribution
 
-See also : 
+See also:          XFGHistWealthD XFGPowerLawAlpha XFGPowerLawEst1 XFGPowerLawEst2 XFGPowerLawP XFGTabletoLatex
 
-Author : Guo Li
+Author:            Guo Li
 
-Submitted :
+Submitted:         Fri, December 18 2015 by Guo Li
 
-Datafile : i.csv, i = 1, 2, ..., 60; Bitcoin_Data1.csv
+Datafile:          i.csv, i = 1, 2, ..., 60, Bitcoin_Data1.csv
 
-Example : >
+Input:  
+
+Output:  
+
+Example:  >
 ```
 
 

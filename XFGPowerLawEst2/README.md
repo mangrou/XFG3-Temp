@@ -4,24 +4,28 @@
 
 
 ```yaml
-<Name of QuantLet : XFGPowerLawEst2
+<Name of QuantLet:  XFGPowerLawEst2
 
-Published in : Applied Quantitative Finance
+Published in:      Applied Quantitative Finance
 
-Description : 'Estimates the Power Law parameter Alpha as well as the goodness
-of fit of right tail of wealth distribution of Auroracoin.'
+Description:       Estimates the Power Law parameter Alpha as well as the goodness
+of fit of right tail of wealth distribution of Auroracoin.
 
-Keywords : 'power law, bitcoin, crypto, currency, index'
+Keywords:          power law, bitcoin, crypto, currency, index
 
-See also : 
+See also:          XFGHistWealthD XFGPowerLawAlpha XFGPowerLawEst1 XFGPowerLawEst3 XFGPowerLawP XFGTabletoLatex
 
-Author : Guo Li
+Author:            Guo Li
 
-Submitted :
+Submitted:         Fri, December 18 2015 by Guo Li
 
-Datafile : Aj.csv, j=2, 3, ..., 10; Auroracoin.csv
+Datafile:          Aj.csv, j=2, 3, ..., 10, Auroracoin.csv
 
-Example : >
+Input:  
+
+Output:  
+
+Example:  >
 ```
 
 
