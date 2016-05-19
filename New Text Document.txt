@@ -1,1 +1,0 @@
-XFGHistWealthD XFGPowerLawAlpha XFGPowerLawEst1 XFGPowerLawEst2 XFGPowerLawEst3 XFGPowerLawP XFGTabletoLatex
