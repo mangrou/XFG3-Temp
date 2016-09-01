@@ -20,10 +20,10 @@ lambda.norm = (lambda - min(lambda))/(max(lambda) - min(lambda))
 dates       = as.Date(tmpdata[, 1], "%Y-%m-%d")
 
 # Download daily VIX values from Yahoo Finance and normalize
-start = dates[1]
-end   = dates[length(lambda)]
-vix   = as.vector(getSymbols("^VIX", src = "yahoo", from = start, to = end, 
-                             auto.assign = FALSE)[, 6])
+start    = dates[1]
+end      = dates[length(lambda)]
+vix      = as.vector(getSymbols("^VIX", src = "yahoo", from = start, to = end, 
+                                auto.assign = FALSE)[, 6])
 vix.norm = (vix - min(vix))/(max(vix) - min(vix))
 
 # Plot normalized time series of FRM lambda and VIX
