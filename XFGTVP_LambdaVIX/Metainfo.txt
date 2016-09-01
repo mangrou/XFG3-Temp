@@ -1,4 +1,4 @@
-Name of Quantlet: XFGLambdaVIX
+Name of Quantlet: XFGTVP_LambdaVIX
 
 Published in: Applied Quantitative Finance (3rd Edition)
 
