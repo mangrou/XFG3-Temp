@@ -11,7 +11,7 @@ Keywords: 'quantile, regression, lasso, L1-norm penalty, volatility, risk measur
 systemic risk, nonstationary, time varying'
 
 See also: 'XFGLambdaSystemicRisk, FRM_lambda_series, FRM_download_data, 
-http://sfb649.wiwi.hu-berlin.de/frm/index.html'
+http://frm.wiwi.hu-berlin.de'
 
 Author: Lenka Zboňáková
 
