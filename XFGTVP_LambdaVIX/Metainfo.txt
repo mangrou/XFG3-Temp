@@ -10,8 +10,8 @@ observations are collected from 6 July 2007 to 14 July 2016 and normalized to in
 Keywords: 'quantile, regression, lasso, L1-norm penalty, volatility, risk measure, 
 systemic risk, nonstationary, time varying'
 
-See also: 'XFGTVP_LambdaSystemicRisk, FRM_lambda_series, FRM_download_data, 
-http://sfb649.wiwi.hu-berlin.de/frm/index.html'
+See also: 'XFGTVP_LambdaSim, FRM_lambda_series, FRM_download_data, 
+http://frm.wiwi.hu-berlin.de'
 
 Author: Lenka Zboňáková
 
