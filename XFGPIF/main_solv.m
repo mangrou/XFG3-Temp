@@ -18,11 +18,19 @@ while(err>0.01)
         ll=ll*0.5;
     end
 end
+for i=1:3
+    for j=1:3
+        if abs(W(i,j))<0.0001
+            W(i,j)=0;
+        end
+    end
+end
+
 PW=W;
 pa=p;
 sig=PW*msig;
 save('result')
-figure
+ff=figure
 subplot(3,1,1)
 plot(sig(1,:))
 subplot(3,1,2)
@@ -30,6 +38,19 @@ plot(sig(2,:))
 subplot(3,1,3)
 plot(sig(3,:))
 print('Sig','-dpng')
+
+close(ff)
+
+ff=imagesc(zeros(3));
+colormap(flipud(gray));
+textStrings = num2str(W(:),'%0.2f');
+textStrings = strtrim(cellstr(textStrings));
+[x,y] = meshgrid(1:3);
+hStrings = text(x(:),y(:),textStrings(:),'HorizontalAlignment','center');
+set(gca,'visible','off')
+print('Loading Matrix','-dpng')
+close
+
 end
 
 
