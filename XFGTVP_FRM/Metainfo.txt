@@ -18,8 +18,8 @@ Keywords: 'quantile, regression, lasso, L1-norm penalty, lasso shrinkage, L1-con
 cross-validation, time varying, bic, plot, visualization, historical moving window, 
 nonstationary, financial, log-returns'
 
-See also: 'XFGTVP_LambdaVIX, XFGTVP_LambdaSim, XFGTVP_BetaChange, quantilelasso, 
-FRM_download_data, FRM_lambda_series, http://frm.wiwi.hu-berlin.de, 
+See also: 'XFGTVP_LambdaVIX, XFGTVP_LambdaSim, XFGTVP_BetaChange, XFGTVP_LambdaSysRisk, 
+quantilelasso, FRM_download_data, FRM_lambda_series, http://frm.wiwi.hu-berlin.de, 
 TVPactiveset, TVPbetanorm, TVPdesign, TVPvariance'
 
 Author: Lenka Zboňáková
