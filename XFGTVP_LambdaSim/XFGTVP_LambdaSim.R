@@ -400,6 +400,9 @@ out_tmp   = foreach(i = 1:n.cores) %dopar% par.Qlasso(i)   # Parallel computing
 Sys.time()
 out_final = res.lasso(n.cores, out_tmp)                    # Collect results from cores
 
+# Close cluster
+stopCluster(cl)
+
 # Plot settings
 par(mfrow = c(1, 1))
 par(mar = c(3, 6, 1, 1))
