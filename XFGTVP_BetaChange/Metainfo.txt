@@ -33,5 +33,6 @@ Input:
 Example: 
 - Lambda
 - Cardinality of q
-- L2-norm of the residuals
 - L1-norm of the beta
+- L2-norm of the residuals
+
