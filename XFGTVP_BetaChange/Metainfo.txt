@@ -12,7 +12,7 @@ and the average over all of them.'
 Keywords: 'quantile, regression, lasso, L1-norm penalty, lasso shrinkage, L1-constraint, 
 cross-validation, time varying, change point, bic, simulation, plot, visualization, historical moving window'
 
-See also: 'XFGTVP_LambdaVIX, XFGTVP_LambdaSim, quantilelasso, TVPactiveset, TVPbetanorm, 
+See also: 'XFGTVP_LambdaVIX, XFGTVP_LambdaSim, XFGTVP_FRM, quantilelasso, TVPactiveset, TVPbetanorm, 
 TVPdesign, TVPvariance'
 
 Author: Lenka Zboňáková
