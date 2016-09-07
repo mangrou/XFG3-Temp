@@ -101,7 +101,7 @@ Qlasso = function(x, y, win) {
       coeff.gcv       = coefftmp.gcv/normx        # Get unscaled coefficients
       st.gcv          = sum(coeff.gcv != 0)       # Number of nonzero coefficients
       
-      # Collect results for the fit with minimal BIC
+      # Collect results for the fit with minimal GACV
       xbtmp.gcv       = xwin %*% coeff.gcv
       restmp.gcv      = ywin - xbtmp.gcv
       xbeta1.gcv      = c(xbeta1.gcv, xbtmp.gcv)
