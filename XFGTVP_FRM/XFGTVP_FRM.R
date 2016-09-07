@@ -6,7 +6,7 @@ graphics.off()
 # setwd("")
 
 # Install and load packages
-libraries = c("MASS", "scales", "foreach", "doParallel", "ald")
+libraries = c("MASS", "scales", "foreach", "doParallel")
 lapply(libraries, function(x) if (!(x %in% installed.packages())) {
   install.packages(x)} )
 lapply(libraries, library, quietly = TRUE, character.only = TRUE)
@@ -315,7 +315,7 @@ plot(out_frm$lambda.bic[, 1], type = "l",  col = alpha("darkblue", 0.1), axes = 
      cex.lab = 1.8)
 axis(1, cex.axis = 1, labels = c(2008:2016), at = at.tmp)
 axis(2, cex.axis = 1)
-for (i in 2:n.sim) {
+for (i in 2:n.firm) {
   tmp = out_frm$lambda.bic[, i]
   lines(tmp, col = alpha("darkblue", 0.1))
 }
@@ -335,7 +335,7 @@ plot(out_frm$act.set.bic[, 1], type = "l", col = alpha("darkblue", 0.1),
      ylim = c(min(out_frm$act.set.bic), max(out_frm$act.set.bic)), cex.lab = 1.8)
 axis(1, cex.axis = 1, labels = c(2008:2016), at = at.tmp)
 axis(2, cex.axis = 1)
-for (i in 2:n.sim) {
+for (i in 2:n.firm) {
   tmp = out_frm$act.set.bic[, i]
   lines(tmp, col = alpha("darkblue", 0.1))
 }
@@ -356,7 +356,7 @@ plot(out_frm$coeff.norm.bic[, 1], type = "l", col = alpha("darkblue", 0.1), axes
      ylim = c(min(out_frm$coeff.norm.bic), max(out_frm$coeff.norm.bic)), cex.lab = 1.8)
 axis(1, cex.axis = 1, labels = c(2008:2016), at = at.tmp)
 axis(2, cex.axis = 1)
-for (i in 2:n.sim) {
+for (i in 2:n.firm) {
   tmp = out_frm$coeff.norm.bic[, i]
   lines(tmp, col = alpha("darkblue", 0.1))
 }
@@ -377,7 +377,7 @@ plot(out_frm$res.norm.bic[, 1], type = "l", col = alpha("darkblue", 0.1), axes =
      ylim = c(min(out_frm$res.norm.bic), max(out_frm$res.norm.bic)), cex.lab = 1.8)
 axis(1, cex.axis = 1, labels = c(2008:2016), at = at.tmp)
 axis(2, cex.axis = 1)
-for (i in 2:n.sim) {
+for (i in 2:n.firm) {
   tmp = out_frm$res.norm.bic[, i]
   lines(tmp, col = alpha("darkblue", 0.1))
 }
