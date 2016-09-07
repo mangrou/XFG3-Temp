@@ -7,7 +7,7 @@ point, after which a combination of changes of variance of the error term, corre
 set q, the L2-norm of the residuals and the L1-norm of the parameter beta are plotted. All of the plots contain results from a number of simulations and the 
 average over all of them.'
 
-Keywords: 'quantile, regression, lasso, L1-norm penalty, lasso shrinkage,
+Keywords: 'quantile, regression, lasso, L1-norm penalty, lasso shrinkage, L1-constraint, cross-validation,
 time varying, change point, bic, simulation, plot, visualization, historical moving window'
 
 See also: 'XFGTVP_LambdaVIX, XFGTVP_BetaChange, quantilelasso, TVPactiveset, TVPbetanorm, TVPdesign, TVPvariance'
