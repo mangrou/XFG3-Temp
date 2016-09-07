@@ -146,7 +146,7 @@ Qlasso = function(x, y, win) {
 }
 
 # Function collecting results from all the cores
-res.lasso = function(n.cores, input){
+res.Qlasso = function(n.cores, input){
   
   res.norm.bic   = numeric(0)
   coeff.norm.bic = numeric(0) 
@@ -340,7 +340,7 @@ for (i in 1:n.sim){
 Sys.time()
 out_tmp   = foreach(i = 1:n.cores) %dopar% par.Qlasso(i)   # Parallel computing
 Sys.time()
-out_final = res.lasso(n.cores, out_tmp)                    # Collect results from cores
+out_final = res.Qlasso(n.cores, out_tmp)                    # Collect results from cores
 
 # Close cluster
 stopCluster(cl)
