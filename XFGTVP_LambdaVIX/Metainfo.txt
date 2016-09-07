@@ -10,7 +10,7 @@ observations are collected from 6 July 2007 to 14 July 2016 and normalized to in
 Keywords: 'quantile, regression, lasso, lasso shrinkage, L1-norm penalty, L1-contraint, volatility, 
 risk measure, systemic risk, nonstationary, time varying, implied-volatility'
 
-See also: 'XFGTVP_LambdaSim, FRM_lambda_series, FRM_download_data, 
+See also: 'XFGTVP_LambdaSim, XFGTVP_BetaChange, XFGTVP_FRM, FRM_lambda_series, FRM_download_data, 
 http://frm.wiwi.hu-berlin.de, quantilelasso'
 
 Author: Lenka Zboňáková
