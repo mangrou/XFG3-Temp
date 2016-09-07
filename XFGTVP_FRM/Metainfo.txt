@@ -19,7 +19,8 @@ cross-validation, time varying, bic, plot, visualization, historical moving wind
 nonstationary, financial, log-returns'
 
 See also: 'XFGTVP_LambdaVIX, XFGTVP_LambdaSim, XFGTVP_BetaChange, quantilelasso, 
-FRM_download_data, FRM_lambda_series, TVPactiveset, TVPbetanorm, TVPdesign, TVPvariance'
+FRM_download_data, FRM_lambda_series, http://frm.wiwi.hu-berlin.de, 
+TVPactiveset, TVPbetanorm, TVPdesign, TVPvariance'
 
 Author: Lenka Zboňáková
 
