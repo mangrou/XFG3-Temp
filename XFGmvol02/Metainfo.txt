@@ -14,4 +14,4 @@ Author: Matthias R. Fengler, Helmut Herwartz, Fabian H.C. Raters
 
 Datafile: fxdata.dat
 
-Output: estimates.dat, sigmaest.dat, mvolmcovar.pdf
+Output: estimates.dat, sigmaest.dat, mvolmcovar.png

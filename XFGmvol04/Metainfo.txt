@@ -17,4 +17,4 @@ Author: Matthias R. Fengler, Helmut Herwartz, Fabian H.C. Raters
 
 Datafile: fxdata.dat, estimates.dat, sigmaest.dat
 
-Output: successfig.pdf
+Output: successfig.png

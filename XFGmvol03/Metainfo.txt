@@ -16,4 +16,4 @@ Author: Matthias R. Fengler, Helmut Herwartz, Fabian H.C. Raters
 
 Datafile: fxdata.dat, estimates.dat
 
-Output: mvolmcovarsimul.pdf
+Output: mvolmcovarsimul.png

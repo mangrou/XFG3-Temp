@@ -14,4 +14,4 @@ Author: Matthias R. Fengler, Helmut Herwartz, Fabian H.C. Raters
 
 Datafile: fx.dat
 
-Output: fxdata.dat, mvolmfxrate.pdf
+Output: fxdata.dat, mvolmfxrate.png
